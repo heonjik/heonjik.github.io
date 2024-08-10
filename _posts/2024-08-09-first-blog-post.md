@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  First blog post
 description: this page is the first blog post
 date: 2024-08-09
 categories: [blog, example]
