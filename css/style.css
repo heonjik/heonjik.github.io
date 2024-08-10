@@ -57,7 +57,7 @@ footer {
 }
 
 .sidebar-image {
-    width: 20%; /* Adjust width as needed */
+    width: 90%; /* Adjust width as needed */
     height: auto; /* Maintain aspect ratio */
     margin-bottom: 15px; /* Space below the image */
 }
