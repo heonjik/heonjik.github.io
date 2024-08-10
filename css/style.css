@@ -57,13 +57,13 @@ footer {
 }
 
 .sidebar-image {
-    width: 100%; /* Adjust width as needed */
+    width: 20%; /* Adjust width as needed */
     height: auto; /* Maintain aspect ratio */
     margin-bottom: 15px; /* Space below the image */
 }
 
 .content-image {
-    width: 100%; /* Adjust width as needed */
+    width: 60%; /* Adjust width as needed */
     height: auto; /* Maintain aspect ratio */
     margin-bottom: 15px; /* Space below the image */
 }
