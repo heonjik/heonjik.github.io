@@ -10,12 +10,11 @@ title: Engineering Portfolio
 
 <article>
     <img src="/assets/images/profile.jpeg" alt="Post Image">
-    <h2><a href="#">Space</a></h2>
+    <h2><a href="/experience/redirection">CDN Redirection Automation</a></h2>
     <p><small>March 19, 2018 | Music</small></p>
-    <p>space</p>
+    <p>Developed a Python code to automate the URL redirection process.</p>
 </article>
 
-#### [CDN Redirection Automation](/experience/redirection)
 #### [User Monthly Data Analysis](/experience/redirection)
 #### [Web Application Migration](/experience/redirection)
                 
