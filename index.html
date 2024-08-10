@@ -1,10 +1,20 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Personal GitHub Page</title>
+    <title>Engineering Portfolio</title>
 </head>
 <body>
-    <h1>Welcome to My GitHub Page</h1>
-    <p>This is my first GitHub Pages site!</p>
+    <h1>HJ's Engineering Portfolio</h1>
+    <h2>Introduction</h2>
+    <p>Hello, this is the homepage to my engineering portfolio.</p>
+
+    <h2>Blog Posts</h2>
+    <ul>
+        {% for post in site.posts %}
+        <li>
+            <a href="https://heonjik.github.io/2024/08/09/first-blog-post">first-blog-post</a>
+        </li>
+        {% endfor %}
+    </ul>
 </body>
 </html>
