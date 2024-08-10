@@ -6,7 +6,7 @@ title: Engineering Portfolio
 Hello, I am a thrid year Engineering Science student at Univeristy of Toronto.\\
 I am majoring Machine Intelligence and minoring in Robotics and Mechatronics.
 
-I am currently seeking for a AI PEY CO-OP position.\\
+I am currently seeking for a AI PEY CO-OP position.
 
 ### My Skills
 * I am proficient in Python, C/C++ programming languages.
