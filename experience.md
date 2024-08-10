@@ -4,13 +4,15 @@ title: Engineering Portfolio
 ---
 ## Experience
 ### Cloud Engineer Intern @ MegazoneCloud Corp. | Toronto, CA
-#### May 2024 - Aug. 2024
+<em>May 2024 - Aug. 2024</em>
 ![MZC Logo](assets/images/megazonecloud_global_logo.jpeg)
-* [CDN Redirection Automation](/2024/08/09/first-blog-post)
-* [User Monthly Data Analysis](/2024/08/09/first-blog-post)
-* [Web Application Migration](/2024/08/09/first-blog-post)
+
+#### [CDN Redirection Automation](/experience/redirection)
+#### [User Monthly Data Analysis](/experience/redirection)
+#### [Web Application Migration](/experience/redirection)
                 
 ### Summer Reaserch Intern @ Seoul National University | Seoul, KR
-#### May 2023 - Jul. 2023
-![SNU Logo](assets/images/snu_logo.jpeg)
-* [Human Interactive Interface Robot (published)](/2024/08/09/first-blog-post)
+<em>May 2023 - Jul. 2023</em>
+![SNU Logo](assets/images/snu_logo.png)
+
+#### [Human Interactive Interface Robot (published)](/experience/redirection)
