@@ -13,7 +13,7 @@ body {
 .navbar a {
     text-decoration: none;
     color: black;
-    margin: 0 15px;
+    margin: 0 20px;
 }
 
 .navbar a.bold {
@@ -25,7 +25,7 @@ body {
 }
 
 .sidebar {
-    background-color: #cbcbcb;
+    background-color: #dcdcdc;
     width: 200px;
     padding: 15px;
     height: 100vh;
@@ -47,11 +47,23 @@ li {
 }
 
 footer {
-    background-color: #333; /* Very dark grey background */
-    color: white; /* White text color */
-    text-align: center; /* Centered text */
-    padding: 10px 0; /* Padding for spacing */
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
     position: absolute;
     width: 100%;
     bottom: 0;
+}
+
+.sidebar-image {
+    width: 100%; /* Adjust width as needed */
+    height: auto; /* Maintain aspect ratio */
+    margin-bottom: 15px; /* Space below the image */
+}
+
+.content-image {
+    width: 100%; /* Adjust width as needed */
+    height: auto; /* Maintain aspect ratio */
+    margin-bottom: 15px; /* Space below the image */
 }
