@@ -41,7 +41,9 @@ body {
     background-color: #dcdcdc;
     width: 200px;
     padding: 20px;
-    height: 90vh;
+    display: inline-block;
+    vertical-align: top;
+    height: calc(100vh - 60px);
 }
 
 .content {
@@ -69,4 +71,23 @@ li {
     width: 10%;
     height: auto;
     margin-bottom: 15px;
+}
+
+.about-me, .projects {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.projects-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.project-item {
+    width: 30%;
+    height: 150px;
+    background-color: #fdfdf0;
+    border-radius: 5px;
 }
