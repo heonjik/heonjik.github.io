@@ -8,7 +8,13 @@ title: Engineering Portfolio
 
 ![MZC Logo](assets/images/megazonecloud_global_logo.jpeg)
 
-<article>
+<div class="article-temp">
+    <div class="article-temp-img">
+        <img src="/assets/images/profile.jpeg" alt="Post Image">
+    </div>
+    <h3>
+</div>
+
     <img src="/assets/images/profile.jpeg" alt="Post Image">
     <h2><a href="/experience/redirection">CDN Redirection Automation</a></h2>
     <p><small>March 19, 2018 | Music</small></p>
