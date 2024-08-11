@@ -15,15 +15,14 @@ body {
 
 /*Navigation bar*/
 .navbar {
-    background-color: #f2f2f2;
-    border-bottom: 1px solid grey;
+    background-color: #3f3f3f;
     padding: 10px;
-    text-align: left;
+    text-align: right;
 }
 
 .navbar a {
     text-decoration: none;
-    color: black;
+    color: white;
     margin: 0 20px;
 }
 
@@ -43,7 +42,9 @@ body {
     padding: 20px;
     display: inline-block;
     vertical-align: top;
-    height: calc(100vh - 60px);
+    height: 600px;
+    margin-top: 20px;
+    margin-left: 20px;
 }
 
 .content {
@@ -73,10 +74,13 @@ li {
     margin-bottom: 15px;
 }
 
-.about-me, .projects {
+.projects {
     background-color: white;
     padding: 20px;
     margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
     border-radius: 5px;
 }
 
@@ -88,6 +92,6 @@ li {
 .project-item {
     width: 30%;
     height: 150px;
-    background-color: #fdfdf0;
+    background-color: white;
     border-radius: 5px;
 }
