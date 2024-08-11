@@ -51,6 +51,7 @@ body {
     flex: 1;
     background-color: #f2f2f2;
     padding: 15px;
+    margin-left: 20px;
 }
 
 ul {
@@ -94,4 +95,8 @@ li {
     height: 150px;
     background-color: white;
     border-radius: 5px;
+}
+
+.post {
+
 }
