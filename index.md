@@ -15,8 +15,8 @@ I am currently seeking for a AI PEY CO-OP position.
 * I have experience with management tools such as Excel, Jira, Confluence, Slack, and Notion.
 
 ## Navigation
-To read more about my professional experience at [MegazoneCloud Global Toronto Office](https://www.megazone.com/us/) and [SNU Autonomous Robotics Lab](https://arisnu.squarespace.com/) please check out my **<a href="/experience" style="text-decoration:none">Experience Page</a>**.
-
-To read more about my university / personal projects, please check out my **<a href="/projects" style="text-decoration:none">Projects Page</a>** page.
+<div class="project-item"></div>
+<div class="project-item"></div>
+<div class="project-item"></div>
 
 Thank you.
