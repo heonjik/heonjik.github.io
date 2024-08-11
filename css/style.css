@@ -38,7 +38,7 @@ body {
 .sidebar {
     border-radius: 25px;
     background-color: #dcdcdc;
-    width: 200px;
+    width: 180px;
     padding: 20px;
     display: inline-block;
     vertical-align: top;
@@ -75,19 +75,11 @@ li {
     margin-bottom: 15px;
 }
 
-.projects {
-    background-color: white;
-    padding: 20px;
-    margin-bottom: 20px;
-    margin-top: 20px;
-    margin-left: 20px;
-    margin-right: 20px;
-    border-radius: 5px;
-}
-
 .projects-list {
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: flex-start;
 }
 
 .project-item {
@@ -95,8 +87,10 @@ li {
     height: 150px;
     background-color: white;
     border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 10px;
 }
 
-.post {
-
+.project-item h3 {
+    margin-bottom: 10px;
 }
