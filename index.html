@@ -1,5 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
+
+<style>
+body {
+    background-color: #f2f2f2;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;;
+}
+
+.header {
+    background-color: #f2f2f2;
+    text-align: center;
+    padding: 25px;
+}
+
+.header a.bold {
+    font-weight: bold;
+}
+
+/*Navigation bar*/
+.navbar {
+    background-color: white;
+    padding: 10px;
+    text-align: left;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    margin: 0 20px;
+}
+
+.navbar a.bold {
+    font-weight: bold;
+}
+
+.container {
+    display: flex;
+}
+
+/*Side bar*/
+.sidebar {
+    border-radius: 25px;
+    background-color: #dcdcdc;
+    width: 180px;
+    padding: 20px;
+    display: inline-block;
+    vertical-align: top;
+    height: 450px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.content {
+    flex: 1;
+    background-color: #f2f2f2;
+    padding: 15px;
+    margin-left: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin: 20px 0;
+}
+
+.sidebar-image {
+    width: 90%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.content-image {
+    width: 10%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.projects-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: flex-start;
+}
+
+.project-item {
+    width: 300;
+    height: 150px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+}
+
+.project-item h3 {
+    margin-bottom: 10px;
+}
+</style>
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
