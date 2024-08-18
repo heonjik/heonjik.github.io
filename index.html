@@ -1,147 +1,119 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<style>
-body {
-    background-color: #f2f2f2;
-    width: 100%;
-    height: 100%;
-    margin: 0;
-    font-family: Arial, sans-serif;;
-}
-
-.header {
-    background-color: #f2f2f2;
-    text-align: center;
-    padding: 25px;
-}
-
-.header a.bold {
-    font-weight: bold;
-}
-
-/*Navigation bar*/
-.navbar {
-    background-color: white;
-    padding: 10px;
-    text-align: left;
-}
-
-.navbar a {
-    text-decoration: none;
-    color: white;
-    margin: 0 20px;
-}
-
-.navbar a.bold {
-    font-weight: bold;
-}
-
-.container {
-    display: flex;
-}
-
-/*Side bar*/
-.sidebar {
-    border-radius: 25px;
-    background-color: #dcdcdc;
-    width: 180px;
-    padding: 20px;
-    display: inline-block;
-    vertical-align: top;
-    height: 450px;
-    margin-top: 20px;
-    margin-left: 20px;
-}
-
-.content {
-    flex: 1;
-    background-color: #f2f2f2;
-    padding: 15px;
-    margin-left: 20px;
-}
-
-ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-li {
-    margin: 20px 0;
-}
-
-.sidebar-image {
-    width: 90%;
-    height: auto;
-    margin-bottom: 15px;
-}
-
-.content-image {
-    width: 10%;
-    height: auto;
-    margin-bottom: 15px;
-}
-
-.projects-list {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-    justify-content: flex-start;
-}
-
-.project-item {
-    width: 300;
-    height: 150px;
-    background-color: white;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    padding: 10px;
-}
-
-.project-item h3 {
-    margin-bottom: 10px;
-}
-</style>
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
     <title>Engineering Portfolio</title>
-    <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
-    <div class="navbar">
-        <a href="/" class="bold">Home</a>
-    </div>
-    <div class="container">
-        <div class="sidebar">
-            <h3>HYUNJI KIM</h3>
-            <img src="assets/images/profile.jpeg" alt="Profile Image" class="sidebar-image">
-                <ul>
-                    <li>Email</li>
-                    <li>CV</li>
-                    <li>LinkedIn</li>
-                    <li>GitHub</li>
-                </ul>
-        </div>
-        <div class="content">
-            <h2>About Me</h2>
-                <p>Hello, my name is Kim and I am a thrid year student in Engineering Science Program @ University of Toronto.</p>
-            <h2>Projects</h2>
-            <div class="projects-list">
-                <div class="project-item">
-                    <h3>Project 1</h3>
-                    <p>projects</p>
-                </div>
-                <div class="project-item">
-                    <h3>Project 2</h3>
-                    <p>projects</p>
-                </div>
-                <div class="project-item">
-                    <h3>Project 3</h3>
-                    <p>projects</p>
-                </div>
+
+<header>
+    <h1>Hyunji Kim</h1>
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section id="about" class="section about-me">
+    <h2>About Me</h2>
+    <div class="box">
+        <div class="boxtop">
+            <div class="row">
+                <img src="assets/images/profile_pic.jpg" alt="Profile Pic"><br>
+                <a href="https://heonjik.github.io/" class="btn" target="_blank">View My CV</a>
             </div>
         </div>
+        <div class="boxspace">
+            <p>
+                My name is <b>Hyunji Kim</b>, and I am a third year <b>Engineering Science</b> student at University of Toronto.<br>
+                I am specializing in <b>Machine Learning</b> and minoring in Robotics and Mechatronics.<br>
+                Seeking a Summer <b>2025 PEY Co-op</b> position in <b>software engineering and ML</b>.<br><br>
+                Skills:
+                <ul>
+                    <li>Proficient in <b>Python and C</b> programming languages.</li>
+                    <li>Skilled in using <b>Git and Linux</b> for version control and operating system tasks.</li>
+                    <li>Performed various <b>data visualization</b> tasks utilizing <b>Pandas</b> to present insights and trends effectively.</li>
+                    <li>Experienced with <b>MySQL, AWS</b>, Docker, and ROS.</li>
+                    <li>Competent with management tools including <b>Excel, Jira, Confluence</b>, Slack, and Notion.</li>
+                </ul>
+            </p>
+        </div>
     </div>
+</section>
+
+<section id="experience" class="section experience">
+    <h2>Professional Experience</h2>
+    <div class="previewbox">
+        <div class="preview">
+            <h3><a href="https://heonjik.github.io/">Cloud Engineer Intern</a></h3>
+            <div class="info">
+                At <a href="https://partners.amazonaws.com/partners/001E000000Rp5GDIAZ/MegazoneCloud" target="_blank">MegazoneCloud Global</a>, Toronto CA<br>
+                May 2024 - Aug. 2024<br>
+            </div>
+            <p>
+                <ul>
+                    <li>Enhanced Python code to automatically generate monthly Microsoft PowerPoint reports, analyzing customer data to identify trends and insights for AWS services.</li><br>
+                    <li>Experienced with MySQL for data analysis and quality testing.</li><br>
+                    <li>Developed Python scripts to automate URL redirection tasks in Google Cloud Platform, reducing processing time from 15 to 3 minutes.</li>
+                </ul>
+            </p>
+        </div>
+        <div class="preview">
+            <h3><a href="https://heonjik.github.io/">Summer Research Intern</a></h3>
+            <div class="info">
+                At <a href="https://arisnu.squarespace.com/" target="_blank">SNU Autonomous Robotics Lab</a>, Seoul KR<br>
+                May 2023 - Jul. 2023
+            </div>
+            <p>
+                <ul>
+                    <li>Developed Python code to create a human-computer interface for controlling a robot using gesture-based commands.</li><br>
+                    <li>Co-authored an engineering journal detailing the gesture-based robot operation; currently under review.</li>
+                </ul>
+            </p>
+        </div>
+    </div>
+</section>
+
+<section id="projects" class="section projects">
+    <h2>Projects</h2>
+    <div class="projectbox">
+        <div class="proprev">
+            <h3><a href="https://heonjik.github.io/">AI Nutrition Web Application</a></h3>
+            <p>
+                Ju. 2024 - Present
+                <ul>
+                    <li>Developed a web application to classify nutritional content and calculate calories from user-uploaded meal images using YOLOv8.
+                        Implemented user authentication and data storage with Flask and MySQL in Python, ensuring secure and efficient data management.</li><br>
+                    <li>Planned to design and build weekly analysis and visualization features using Pandas, providing users with insights into their dietary habits.</li><br>
+                    <li>Planned the deployment of the application on AWS, utilizing EC2 for hosting, RDS MySQL for database management, and S3 for image storage.</li>
+                </ul>
+            </p>
+        </div>
+        <div class="proprev">
+            <h3><a href="https://heonjik.github.io/">Seam Carving (Image Resizing)</a></h3>
+            <p>
+                Mar. 2023
+                <ul>
+                    <li>Implemented an algorithm in C that uses dynamic programming to calculate minimum energy cost.</li><br>
+                    <li>Systematically reducing image size while preserving key features, optimizing image processing and improving efficiency and accuracy.</li>
+                </ul>
+            </p>
+        </div>
+    </div>
+    <a href="#" class="probtn">See more</a>
+</section>
+
+<section id="contact" class="section contact">
+    <h2>Contact Me</h2>
+    <a href="mailto:hji.kim@mail.utoronto.ca">Email</a>
+    <a href="https://www.linkedin.com/in/hyunji-kim-2637822a7/">LinkedIn</a>
+</section>
+
 </body>
 </html>
