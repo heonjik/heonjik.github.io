@@ -15,6 +15,10 @@ header h1 {
     margin: 0;
     color: #081f56;
 }
+header h1 a {
+    text-decoration: none;
+    color: #081f56;
+}
 nav ul {
     list-style: none;
     margin: 0;
@@ -116,9 +120,6 @@ nav ul li a {
 }
 .preview h3 {
     text-align: center;
-}
-.preview h3 a {
-    color: black;
 }
 .info {
     text-align: center;
